@@ -1,0 +1,166 @@
+body{
+    font-family: "Exo 2", sans-serif;
+    margin-top: 15px;
+}
+
+#panel{
+    margin-bottom: 20px;
+}
+
+#logotitle{
+    font-size: 27px;
+    line-height: 25px;
+}
+
+#logoprefix{
+    font-size: 11px;
+    line-height: 14px;
+    color: #909293;
+}
+
+.header{
+    padding-bottom: 17px;
+}
+
+.headcard{
+    color: #c6282a;
+    border-bottom: 2px dotted #c6282a;
+    padding-bottom: 2px;
+}
+
+.topmenu{
+    margin-top: 5px;
+}
+
+.nav-link{
+    color: #9f8b96;
+}
+
+.active{
+    color: #c6282a;
+}
+
+.headbanner{
+    background-image: url("../images/prinimaem_zakazy.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 560px;
+    border-top: 3px solid #c62829;
+}
+
+.contacts, .menu{
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    margin-top: -100px;
+    background-color: white;
+    border-radius: 7px;
+
+}
+
+.contacts{
+    padding-top: 20px;
+    padding-left: 15px;
+    line-height: 10px;
+}
+.address{
+
+    font-style: italic;
+    font-weight: bold;
+
+}
+.menu{
+    margin-top: 20px;
+    height: 100%;
+}
+
+.menutitle{
+    border-bottom: 2px solid #c62829;
+    padding: 20px 0px 10px 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.productpicture{
+    width: 250px;
+    margin-top: 50px;
+}
+
+.productname{
+    font-size: 20px;
+}
+
+.productcomposition{
+    font-size: 16px;
+    color: #9f8b96;
+}
+
+.producsize{
+    font-size: 17px;
+}
+
+.tocard{
+    height: 45px;
+    background-color: #c62829 ;
+    border: 0;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+html body button.tocard:hover,
+html body button.tocard:active,
+html body button.tocard:focus{
+    background-color: #861b1c;
+    border: 0;
+}
+
+.productprice{
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.category{
+    margin-bottom: 50px;
+}
+
+.sizeswitcher, .meatswitcher{
+    border: 1px solid #f3f3f3;
+    border-radius: 10px;
+    background-color: #f3f3f3;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+.size, .meat, .add{
+    padding: 7px 10px 7px 0;
+    text-align: center;
+    color: #938e91;
+}
+.selected{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 110%;
+    padding-left: 10px;
+    background-color: white;
+    color: #000000;
+}
+
+.add{
+    font-size: 13px;
+    padding: 7px 0px 7px 0;
+}
+
+.footer{
+    margin-top: 10px;
+    background-color: #c62829;
+    height: 50px;
+}
+
+#footerimage{
+    margin: 5px 0 0 10px;
+    height: 40px;
+}
+
+#footertext{
+    color: white;
+    margin-top: 10px;
+    margin-left: 5px;
+}
