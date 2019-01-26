@@ -27,7 +27,6 @@ use Bitrix\Main\Page\Asset;
     Asset::getInstance()->addString('<link href="https://fonts.googleapis.com/css?family=Exo|Exo+2" rel="stylesheet">');
     ?>
 
-
 </head>
 <body>
 

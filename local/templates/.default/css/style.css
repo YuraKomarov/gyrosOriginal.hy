@@ -97,11 +97,13 @@ body{
 }
 
 .tocard{
+    padding: 10px 5px 5px 5px;
     height: 45px;
     background-color: #c62829 ;
     border: 0;
     border-radius: 10px;
     font-weight: bold;
+    width: 110px;
 }
 
 html body button.tocard:hover,
@@ -120,33 +122,6 @@ html body button.tocard:focus{
     margin-bottom: 50px;
 }
 
-.sizeswitcher, .meatswitcher{
-    border: 1px solid #f3f3f3;
-    border-radius: 10px;
-    background-color: #f3f3f3;
-    padding-right: 5px;
-    margin-bottom: 20px;
-    font-size: 13px;
-}
-
-.size, .meat, .add{
-    padding: 7px 10px 7px 0;
-    text-align: center;
-    color: #938e91;
-}
-.selected{
-    border: 1px solid black;
-    border-radius: 10px;
-    width: 110%;
-    padding-left: 10px;
-    background-color: white;
-    color: #000000;
-}
-
-.add{
-    font-size: 13px;
-    padding: 7px 0px 7px 0;
-}
 
 .footer{
     margin-top: 10px;
@@ -164,3 +139,40 @@ html body button.tocard:focus{
     margin-top: 10px;
     margin-left: 5px;
 }
+li.product-item-scu-item-text-container{
+    color:#938e91;
+    display: inline;
+    list-style-type: none;
+}
+ul.product-item-scu-item-list{
+    padding:0;
+}
+
+ul.product-item-scu-item-list > li{
+    display: inline;
+    margin-right: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.switcher{
+    padding: 6px 5px 0 15px;
+    height: 38px;
+    border: 1px solid #f3f3f3;
+    border-radius: 10px;
+    background-color: #f3f3f3;
+    margin-bottom: 20px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.switcher:hover{
+    cursor: pointer;
+}
+
+
+.selected{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+
